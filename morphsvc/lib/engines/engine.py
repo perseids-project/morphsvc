@@ -2,6 +2,9 @@ import json
 
 class Engine():
 
+    def __init__(self,*args,**kwargs):
+        pass
+
     def output_json(self,engine_response):
         return json.dumps(engine_response)
 

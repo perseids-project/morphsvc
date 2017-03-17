@@ -41,7 +41,7 @@ class AnalysisWord(Resource):
 
         module_name, class_name = self.config[config_setting].rsplit(".",1)
         EngineClass = getattr(importlib.import_module(module_name), class_name)
-        engine_instance = EngineClass()
+        engine_instance = EngineClass(self.config)
 
         if not engine_instance.supports_language(lang):
             return self.make_error(msg="unsupported language",engine=engine_instance, code=404)
