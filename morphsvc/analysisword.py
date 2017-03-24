@@ -48,15 +48,14 @@ class AnalysisWord(Resource):
 
         cached_word = self.get_from_cache(engine=engine,word=word,lang=lang)
 
-        print("Retrieved from cache " + str(cached_word))
         if cached_word is not None:
-            analysis = cached_word
+            analysis = engine_instance.from_cache(cached_word)
             return { 'data': analysis, 'engine': engine_instance },201
         else:
             if not word_uri:
                 word_uri = 'urn:word:'+word
-            analysis = engine_instance.lookup(word,word_uri)
-            self.put_to_cache(engine=engine, word=word, analysis=analysis,lang=lang)
+            analysis = engine_instance.lookup(word,word_uri,lang)
+            self.put_to_cache(engine=engine, word=word, analysis=engine_instance.to_cache(analysis),lang=lang)
             return { 'data': analysis, 'engine': engine_instance, 'format':'bsp' },201
 
 

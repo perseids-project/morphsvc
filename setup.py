@@ -12,6 +12,7 @@ setup(
         "Flask-Restful",
         "requests-cache==0.4.9",
         "flask-cors==2.0.0",
+        "lxml",
         "xmljson"
     ],
     setup_requires=[
