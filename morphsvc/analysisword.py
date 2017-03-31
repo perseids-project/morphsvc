@@ -55,8 +55,9 @@ class AnalysisWord(Resource):
             if not word_uri:
                 word_uri = 'urn:word:'+word
             analysis = engine_instance.lookup(word,word_uri,lang)
-            self.put_to_cache(engine=engine, word=word, analysis=engine_instance.to_cache(analysis),lang=lang)
-            return { 'data': analysis, 'engine': engine_instance, 'format':'bsp' },201
+            oa = engine_instance.as_annotation(word_uri,analysis)
+            self.put_to_cache(engine=engine, word=word, analysis=engine_instance.to_cache(oa),lang=lang)
+            return { 'data': oa, 'engine': engine_instance, 'format':'bsp' },201
 
 
     def make_error(self,engine=None, msg=None, code=None):

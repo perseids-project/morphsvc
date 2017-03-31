@@ -12,6 +12,7 @@ class MorpheusLocalEngine(AlpheiosXmlEngine):
     def __init__(self,config,**kwargs):
        super(MorpheusLocalEngine, self).__init__(config,**kwargs)
        self.config = config
+       self.uri = self.config['PARSERS_MORPHEUS_URI']
        self.morpheus_path = self.config['PARSERS_MORPHEUS_PATH']
        self.default_args_grc = self.config['PARSERS_MORPHEUS_DEFAULT_ARGS_GRC']
        self.default_args_lat = self.config['PARSERS_MORPHEUS_DEFAULT_ARGS_LAT']
