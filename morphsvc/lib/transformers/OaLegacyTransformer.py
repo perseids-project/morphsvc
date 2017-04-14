@@ -10,11 +10,14 @@ class OaLegacyTransformer:
       xslt = pkg_resources.resource_string(resource_package,xslt_path)
       self.xslt_transformer = etree.XSLT(etree.XML(xslt))
 
-   def wrap(self,word_uri,engine_uri,xml):
+   def wrap(self, annotation_uri, word_uri, engine_uri, xml):
+      annotation_uri_param = etree.XSLT.strparam(annotation_uri)
       word_uri_param = etree.XSLT.strparam(word_uri)
       engine_uri_param = etree.XSLT.strparam(engine_uri)
       createdat_param = etree.XSLT.strparam(datetime.utcnow().isoformat())
-      transformed = self.xslt_transformer(xml,e_worduri = word_uri_param, e_datetime = createdat_param, e_agenturi = engine_uri_param)
-      return transformed
+      transformed = self.xslt_transformer(xml,e_annotationuri = annotation_uri_param,
+                                          e_worduri = word_uri_param,
+                                          e_datetime = createdat_param, e_agenturi = engine_uri_param)
+      return etree.fromstring(etree.tostring(transformed,encoding="unicode"))
 
 
