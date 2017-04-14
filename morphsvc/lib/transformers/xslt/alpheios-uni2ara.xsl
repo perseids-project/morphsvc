@@ -35,14 +35,12 @@
    http://www.gnu.org/licenses/
  -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"                
-                version="2.0">
+                version="1.0">
   <xsl:output method="text"/>
 
   <xsl:param name="e_in"/>
-  <xsl:param name="e_method" select="uni-to-ara"/>
-  <xsl:param name="e_depersify" select="false"/>
-
-
+  <xsl:param name="e_method" select="'uni-to-ara'"/>
+  
                 
   <!-- Arabic utility routines -->
 
@@ -99,7 +97,7 @@
       <xsl:otherwise>
         <xsl:call-template name="ara-buckwalter-to-uni">
            <xsl:with-param name="a_in" select="$e_in"/>
-           <xsl:with-param name="a_depersify" select="$e_depersify"/>           
+           <xsl:with-param name="a_depersify" select="false()"/>           
         </xsl:call-template>      
       </xsl:otherwise>
     </xsl:choose>

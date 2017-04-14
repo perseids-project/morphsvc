@@ -23,7 +23,8 @@ class MorpheusLocalEngine(AlpheiosXmlEngine):
 
     def lookup(self,word,word_uri,language,**kwargs):
         print("Word="+word)
-        word = self.transformer.transform_input(word)
+        if language == 'grc':
+          word = self.transformer.transform_input(word)
         if language == 'lat':
             args = self.default_args_lat
         else:

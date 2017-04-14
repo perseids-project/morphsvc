@@ -40,10 +40,7 @@
   <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
   <xsl:strip-space elements="*"/>
 
-  <xsl:param name="e_in"/>
-  <xsl:param name="e_method" select="uni-to-ara"/>
-  <xsl:param name="e_depersify" select="false"/>
-  <xsl:param name="e_lexicalEntitySvc"/>
+  <xsl:param name="e_depersify" select="false()"/>
 
                 
   <!-- Arabic utility routines -->
@@ -107,13 +104,8 @@
           </xsl:with-param>
         </xsl:call-template>
       </xsl:variable>
-      <xsl:variable name="uri">
-      	<xsl:if test="$e_lexicalEntitySvc">
-      		<xsl:copy-of select="document(concat($e_lexicalEntitySvc,escape-html-uri($lemma)))"/>
-      	</xsl:if>
-      </xsl:variable>
       <xsl:element name="entry">
-        <xsl:attribute name="uri" select="$uri//ri:reply/ri:record/@ref"/>
+        <xsl:attribute name="uri"/>
         <xsl:apply-templates select="@*"/>
         <xsl:apply-templates select="node()"/>
       </xsl:element>
