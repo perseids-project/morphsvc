@@ -8,27 +8,20 @@ from morphsvc.lib.transformers.BetacodeTransformer import BetacodeTransformer
 
 class MorpheusLocalEngine(AlpheiosXmlEngine):
 
-
     def __init__(self,config,**kwargs):
        super(MorpheusLocalEngine, self).__init__(config,**kwargs)
        self.config = config
        self.uri = self.config['PARSERS_MORPHEUS_URI']
        self.morpheus_path = self.config['PARSERS_MORPHEUS_PATH']
-       self.default_args_grc = self.config['PARSERS_MORPHEUS_DEFAULT_ARGS_GRC']
-       self.default_args_lat = self.config['PARSERS_MORPHEUS_DEFAULT_ARGS_LAT']
        self.transformer = BetacodeTransformer(config)
        self.lexical_entity_svc_grc = self.config['SERVICES_LEXICAL_ENTITY_SVC_GRC']
        self.lexical_entity_svc_lat = self.config['SERVICES_LEXICAL_ENTITY_SVC_LAT']
        self.lexical_entity_base_uri = self.config['SERVICES_LEXICAL_ENTITY_BASE_URI']
 
-    def lookup(self,word,word_uri,language,**kwargs):
-        print("Word="+word)
+    def lookup(self,word=None,word_uri=None,language=None,request_args=None,**kwargs):
+        args = self.make_args(language,request_args)
         if language == 'grc':
           word = self.transformer.transform_input(word)
-        if language == 'lat':
-            args = self.default_args_lat
-        else:
-            args = self.default_args_grc
         parsed = check_output(itertools.chain([self.morpheus_path], args, [word]))
         if language == 'grc':
             transformed = self.transformer.transform_output(parsed)
@@ -42,10 +35,10 @@ class MorpheusLocalEngine(AlpheiosXmlEngine):
 
     def add_lexical_entity_uris(self,analysis,language):
         lemmas = analysis.xpath('//hdwd')
-        if language == 'lat':
-            svc = self.lexical_entity_svc_lat
-        else:
+        if language == 'grc':
             svc = self.lexical_entity_svc_grc
+        else:
+            svc = self.lexical_entity_svc_lat
         for l in lemmas:
             url = svc + l.text
             resp = requests.get(url).text
@@ -65,3 +58,18 @@ class MorpheusLocalEngine(AlpheiosXmlEngine):
                 l.getparent().getparent().set('uri',self.lexical_entity_base_uri+uri)
 
 
+    def make_args(self,lang,request_args):
+        args = []
+        args.append("-m"+self.config['PARSERS_MORPHEUS_STEMLIBDIR'])
+        if lang == 'la' or lang == 'lat':
+            args.append('-L')
+        if 'strictCase' in request_args and request_args['strictCase'] == '1':
+            pass
+        else:
+            args.append('-S')
+        if 'checkPreverbs' in request_args and request_args['checkPreverbs'] == '1':
+            args.append('-c')
+        return args
+
+    def options(self):
+        return {'strictCase': '^1$','checkPreverbs':'^1$'}

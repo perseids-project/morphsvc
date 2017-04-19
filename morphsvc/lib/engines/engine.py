@@ -5,6 +5,9 @@ class Engine():
     def __init__(self,*args,**kwargs):
         pass
 
+    def lookup(self,word=None,word_uri=None,language=None,request_args=None,**kwargs):
+        pass
+
     def output_json(self,engine_response):
         return json.dumps(engine_response)
 
@@ -13,3 +16,6 @@ class Engine():
 
     def supports_language(self,language):
         return False
+
+    def options(self):
+        return None
