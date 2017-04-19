@@ -1,6 +1,6 @@
 # coding=utf8
 from flask import Flask,abort,make_response
-from werkzeug.contrib.cache import SimpleCache, MemcachedCache
+from flask.ext.cache import Cache
 from flask_restful import Resource, Api, reqparse
 from flask.ext.cors import CORS
 from morphsvc.analysisword import AnalysisWord
@@ -8,7 +8,8 @@ from morphsvc.analysisword import AnalysisWord
 
 app = Flask("morphsvc")
 api = Api(app=app, default_mediatype='application/xml')
-app_cache = None
+cache = Cache(app,config={'CACHE_TYPE':'simple'})
+
 
 @api.representation('application/json')
 def output_json(data, code, headers=None):
@@ -27,12 +28,10 @@ def output_xml(data, code, headers=None):
 def get_app():
     return app
 
-def init_app(app=None, config_file="config.cfg",cache=None):
+def init_app(app=None, config_file="config.cfg",cache_config=None):
     app.config.from_pyfile(config_file,silent=False)
     if cache is not None:
-        app_cache = cache
-    else:
-        app_cache = SimpleCache()
+        cache.init_app(app,config=cache_config)
 
 
 #api.add_resource(EngineListAPI, '/morphologyservice/engine')
@@ -41,7 +40,7 @@ def init_app(app=None, config_file="config.cfg",cache=None):
 api.add_resource(
     AnalysisWord,
     '/analysis/word',
-    resource_class_kwargs={ 'config':app.config, 'cache': SimpleCache() }
+    resource_class_kwargs={ 'config':app.config, 'cache': cache }
 )
 
 

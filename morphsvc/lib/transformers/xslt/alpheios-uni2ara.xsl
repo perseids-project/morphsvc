@@ -34,7 +34,8 @@
    published under the GNU General Public License
    http://www.gnu.org/licenses/
  -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"                
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"       
+  xmlns:exsl="http://exslt.org/common"
                 version="1.0">
   <xsl:output method="text"/>
 
@@ -83,7 +84,7 @@
     </drop-table>
   </xsl:variable>
   <xsl:variable name="s_araDiacritics"
-    select="$s_rawAraDiacritics/drop-table"/>
+    select="exsl:node-set($s_rawAraDiacritics)/drop-table"/>
 
   <xsl:variable name="s_araDropAll">tanwin,hamza,harakat,shadda,sukun,alef</xsl:variable>
   
@@ -125,7 +126,6 @@
         Regexes taken from Gabe Weaver's depersify.pl Perl script.
       -->
       <xsl:when test="$a_depersify">
-        <!-- XSLT 1.0 
         <xsl:variable name="temp">
           <xsl:call-template name="replace-1.0">
             <xsl:with-param name="a_in" >
@@ -157,19 +157,6 @@
             <xsl:with-param name="a_replace" select="'}'"/>
           </xsl:call-template>
         </xsl:variable>
-        -->
-        <!-- XSLT 2.0 -->
-        <xsl:variable
-          name="temp"
-          select="replace(
-                    replace(
-                      replace(
-                        replace(
-                          replace($a_in, 'A=', '|'),
-                          'A\^', '&gt;'),
-                        'A_', '&lt;'),
-                      'w\^', '&amp;'),
-                    'y\^', '}')"/> 
         <xsl:value-of
           select="translate($temp, $s_araBuckwalter, $s_araUnicode)"/>
       </xsl:when>
