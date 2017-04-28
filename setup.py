@@ -18,5 +18,7 @@ setup(
     setup_requires=[
     ],
     tests_require=[
+        "xmlunittest>=0.3.2",
+        "jsondiff>=1.1.1"
     ]
 )
