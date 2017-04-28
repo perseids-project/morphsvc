@@ -141,7 +141,11 @@ class XMLData(object):
             if count[child.tag] == 1:
                 value.update(self.data(child))
             else:
-                result = value.setdefault(child.tag, self.list())
+                if self.ignore_ns:
+                  tag = et.QName(child.tag)
+                  result = value.setdefault(tag.localname, self.list())
+                else:
+                    result = value.setdefault(child.tag, self.list())
                 result += self.data(child).values()
         if (self.ignore_ns):
             tag = et.QName(root)

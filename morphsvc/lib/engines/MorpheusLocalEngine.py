@@ -22,7 +22,7 @@ class MorpheusLocalEngine(AlpheiosXmlEngine):
         args = self.make_args(language,request_args)
         if language == 'grc':
           word = self.transformer.transform_input(word)
-        parsed = check_output(itertools.chain([self.morpheus_path], args, [word]))
+        parsed = self._execute_query(args,word)
         if language == 'grc':
             transformed = self.transformer.transform_output(parsed)
         else:
@@ -30,18 +30,17 @@ class MorpheusLocalEngine(AlpheiosXmlEngine):
         self.add_lexical_entity_uris(transformed,language)
         return transformed
 
+    def _execute_query(self,args,word):
+        return check_output(itertools.chain([self.morpheus_path], args, [word]))
+
+
     def supports_language(self,language):
         return language == 'grc' or language == 'lat' or language == 'la'
 
     def add_lexical_entity_uris(self,analysis,language):
         lemmas = analysis.xpath('//hdwd')
-        if language == 'grc':
-            svc = self.lexical_entity_svc_grc
-        else:
-            svc = self.lexical_entity_svc_lat
         for l in lemmas:
-            url = svc + l.text
-            resp = requests.get(url).text
+            resp = self._execute_lexical_query(language,l.text)
             uri_xml = etree.fromstring(resp)
             uri = ""
             uris = uri_xml.xpath('//cs:reply//cite:citeObject',
@@ -57,6 +56,13 @@ class MorpheusLocalEngine(AlpheiosXmlEngine):
             if uri:
                 l.getparent().getparent().set('uri',self.lexical_entity_base_uri+uri)
 
+    def _execute_lexical_query(self,language,lemma):
+        if language == 'grc':
+            svc = self.lexical_entity_svc_grc
+        else:
+            svc = self.lexical_entity_svc_lat
+        url = svc + lemma
+        return requests.get(url).text
 
     def make_args(self,lang,request_args):
         args = []

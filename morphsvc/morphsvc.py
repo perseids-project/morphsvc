@@ -30,7 +30,7 @@ def get_app():
 
 def init_app(app=None, config_file="config.cfg",cache_config=None):
     app.config.from_pyfile(config_file,silent=False)
-    if cache is not None:
+    if cache_config is not None:
         cache.init_app(app,config=cache_config)
 
 

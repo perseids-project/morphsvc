@@ -1,0 +1,16 @@
+<list xmlns='http://shot.holycross.edu/xmlns/citequery' xmlns:cite='http://shot.holycross.edu/xmlns/cite'>
+  <request>
+    <p>inject request info here...</p>
+    <collection>urn:cite:perseus:grclexent</collection>
+    <trips>[[normalizedlemma, Μοῦσαι]]</trips>
+    <valsplit />
+  </request>
+  <reply>
+    <cite:citeObject urn='urn:cite:perseus:grclexent.dummy123.1'>
+      <cite:citeProperty name='normalizedlemma' label='Normalized Lemma' type='string'>Μοῦσαι</cite:citeProperty>
+      <cite:citeProperty name='shortdef' label='Short Definition' type='string'></cite:citeProperty>
+      <cite:citeProperty name='status' label='Status' type='string'>proposed</cite:citeProperty>
+      <cite:citeProperty name='redirect' label='Redirected To' type='citeurn'></cite:citeProperty>
+    </cite:citeObject>
+  </reply>
+</list>
