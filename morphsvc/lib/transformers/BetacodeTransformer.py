@@ -21,6 +21,9 @@ class BetacodeTransformer:
 
 
    def transform_output(self,output):
-      output_xml = etree.fromstring(output)
-      transformed = self.xslt_out_transformer(output_xml)
+      try:
+         output_xml = etree.fromstring(output)
+         transformed = self.xslt_out_transformer(output_xml)
+      except:
+         transformed = etree.fromstring("<words/>")
       return transformed

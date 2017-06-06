@@ -59,7 +59,6 @@
                 <xsl:attribute name="rdf:resource">cnt:ContentAsXML</xsl:attribute>
             </xsl:element>
             <xsl:element name="cnt:rest">
-                <xsl:attribute name="rdf:parseType">Literal</xsl:attribute>
                 <xsl:copy-of select="."/>
             </xsl:element>
         </xsl:element>

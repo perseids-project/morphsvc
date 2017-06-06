@@ -3,8 +3,9 @@ from subprocess import check_output
 import itertools
 from lxml import etree
 from collections import Callable
-import os, requests
+import os, requests, re
 from morphsvc.lib.transformers.BetacodeTransformer import BetacodeTransformer
+from morphsvc.lib.transformers.LatinTransformer import LatinTransformer
 
 class MorpheusLocalEngine(AlpheiosXmlEngine):
 
@@ -14,6 +15,7 @@ class MorpheusLocalEngine(AlpheiosXmlEngine):
        self.uri = self.config['PARSERS_MORPHEUS_URI']
        self.morpheus_path = self.config['PARSERS_MORPHEUS_PATH']
        self.transformer = BetacodeTransformer(config)
+       self.latin_transformer = LatinTransformer(config)
        self.lexical_entity_svc_grc = self.config['SERVICES_LEXICAL_ENTITY_SVC_GRC']
        self.lexical_entity_svc_lat = self.config['SERVICES_LEXICAL_ENTITY_SVC_LAT']
        self.lexical_entity_base_uri = self.config['SERVICES_LEXICAL_ENTITY_BASE_URI']
@@ -22,11 +24,18 @@ class MorpheusLocalEngine(AlpheiosXmlEngine):
         args = self.make_args(language,request_args)
         if language == 'grc':
           word = self.transformer.transform_input(word)
+        else:
+            word = self.latin_transformer.transform_input(word)
         parsed = self._execute_query(args,word)
+        # this is a ridiculous hack to preserve backwards consistency - the old
+        # Alpheios mod_perl wrapper stripped the # sign off the hdwds
+        if not isinstance(parsed,str):
+            parsed = parsed.decode('utf-8')
+        parsed = re.sub(r'#(\d+)</hdwd>', '\\1</hdwd>', parsed)
         if language == 'grc':
             transformed = self.transformer.transform_output(parsed)
         else:
-            transformed = etree.XML(parsed)
+            transformed = etree.fromstring(parsed)
         self.add_lexical_entity_uris(transformed,language)
         return transformed
 
@@ -72,6 +81,7 @@ class MorpheusLocalEngine(AlpheiosXmlEngine):
         if 'strictCase' in request_args and request_args['strictCase'] == '1':
             pass
         else:
+            # default behavior is case insensitive match
             args.append('-S')
         if 'checkPreverbs' in request_args and request_args['checkPreverbs'] == '1':
             args.append('-c')

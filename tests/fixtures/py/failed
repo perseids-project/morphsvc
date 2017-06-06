@@ -1,0 +1,684 @@
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=abbatibus
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:abbatibus:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:56:51.326158"}, "hasTarget": {"Description": {"about": "urn:word:abbatibus"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=abc
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:abc:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:56:51.352340"}, "hasTarget": {"Description": {"about": "urn:word:abc"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=abitationis
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:abitationis:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:56:53.056493"}, "hasTarget": {"Description": {"about": "urn:word:abitationis"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=abuet
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:abuet:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:56:54.547215"}, "hasTarget": {"Description": {"about": "urn:word:abuet"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Achi
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Achi:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:56:58.532445"}, "hasTarget": {"Description": {"about": "urn:word:Achi"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Achille
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Achille:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:56:58.558232"}, "hasTarget": {"Description": {"about": "urn:word:Achille"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Achillem
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Achillem:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:56:58.584308"}, "hasTarget": {"Description": {"about": "urn:word:Achillem"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Achivi
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Achivi:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:56:58.620355"}, "hasTarget": {"Description": {"about": "urn:word:Achivi"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Achivos
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Achivos:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:56:58.646105"}, "hasTarget": {"Description": {"about": "urn:word:Achivos"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=(adulter)
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:(adulter):morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:10.190756"}, "hasTarget": {"Description": {"about": "urn:word:(adulter)"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aeacidis
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aeacidis:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:10.842959"}, "hasTarget": {"Description": {"about": "urn:word:Aeacidis"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aeacon
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aeacon:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:10.871943"}, "hasTarget": {"Description": {"about": "urn:word:Aeacon"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aeacus
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aeacus:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:10.901648"}, "hasTarget": {"Description": {"about": "urn:word:Aeacus"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aedu%C4%AB
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aeduī:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:11.769880"}, "hasTarget": {"Description": {"about": "urn:word:Aeduī"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aedu%C5%8Drum
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aeduōrum:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:11.795224"}, "hasTarget": {"Description": {"about": "urn:word:Aeduōrum"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aefulanum
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aefulanum:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:11.823959"}, "hasTarget": {"Description": {"about": "urn:word:Aefulanum"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aemilium
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aemilium:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:12.821598"}, "hasTarget": {"Description": {"about": "urn:word:Aemilium"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aeoliden
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aeoliden:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:13.361552"}, "hasTarget": {"Description": {"about": "urn:word:Aeoliden"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aeolio
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aeolio:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:13.388627"}, "hasTarget": {"Description": {"about": "urn:word:Aeolio"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aesopus
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aesopus:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:16.079385"}, "hasTarget": {"Description": {"about": "urn:word:Aesopus"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aethiopasque
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aethiopasque:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:17.838039"}, "hasTarget": {"Description": {"about": "urn:word:Aethiopasque"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aethiopum
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aethiopum:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:17.873262"}, "hasTarget": {"Description": {"about": "urn:word:Aethiopum"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aetnaeo
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aetnaeo:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:17.909108"}, "hasTarget": {"Description": {"about": "urn:word:Aetnaeo"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Agamemnonis
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Agamemnonis:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:18.706489"}, "hasTarget": {"Description": {"about": "urn:word:Agamemnonis"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aganippes
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aganippes:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:18.751923"}, "hasTarget": {"Description": {"about": "urn:word:Aganippes"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aggiprande
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aggiprande:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:19.442970"}, "hasTarget": {"Description": {"about": "urn:word:Aggiprande"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aggiprandu
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aggiprandu:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:19.493293"}, "hasTarget": {"Description": {"about": "urn:word:Aggiprandu"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Agifredi
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Agifredi:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:20.043263"}, "hasTarget": {"Description": {"about": "urn:word:Agifredi"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Agifridi
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Agifridi:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:20.072485"}, "hasTarget": {"Description": {"about": "urn:word:Agifridi"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Agiprandus
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Agiprandus:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:20.222952"}, "hasTarget": {"Description": {"about": "urn:word:Agiprandus"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=(agnoscit)
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:(agnoscit):morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:21.989068"}, "hasTarget": {"Description": {"about": "urn:word:(agnoscit)"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aiax
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aiax:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:24.264741"}, "hasTarget": {"Description": {"about": "urn:word:Aiax"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Albara
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Albara:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:25.092435"}, "hasTarget": {"Description": {"about": "urn:word:Albara"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Albiano
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Albiano:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:25.373733"}, "hasTarget": {"Description": {"about": "urn:word:Albiano"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Alcithoen
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Alcithoen:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:25.401219"}, "hasTarget": {"Description": {"about": "urn:word:Alcithoen"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aleph
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aleph:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:25.551691"}, "hasTarget": {"Description": {"about": "urn:word:Aleph"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Alexandreta
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Alexandreta:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:25.580816"}, "hasTarget": {"Description": {"about": "urn:word:Alexandreta"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Alexandrinus
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Alexandrinus:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:25.607173"}, "hasTarget": {"Description": {"about": "urn:word:Alexandrinus"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=alico
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:alico:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:26.746709"}, "hasTarget": {"Description": {"about": "urn:word:alico"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=aliquoius
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:aliquoius:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:30.773651"}, "hasTarget": {"Description": {"about": "urn:word:aliquoius"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Alitruda
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Alitruda:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:31.702807"}, "hasTarget": {"Description": {"about": "urn:word:Alitruda"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Allobrog%C4%93s
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Allobrogēs:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:32.471463"}, "hasTarget": {"Description": {"about": "urn:word:Allobrogēs"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Allobroges
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Allobroges:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:32.501722"}, "hasTarget": {"Description": {"about": "urn:word:Allobroges"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Allobrogibus
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Allobrogibus:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:32.529972"}, "hasTarget": {"Description": {"about": "urn:word:Allobrogibus"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Allobrogum
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Allobrogum:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:32.557721"}, "hasTarget": {"Description": {"about": "urn:word:Allobrogum"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aloni
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aloni:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:32.584713"}, "hasTarget": {"Description": {"about": "urn:word:Aloni"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Alpem
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Alpem:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:32.624273"}, "hasTarget": {"Description": {"about": "urn:word:Alpem"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Alpes
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Alpes:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:32.672395"}, "hasTarget": {"Description": {"about": "urn:word:Alpes"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Amarylli
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Amarylli:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:36.476541"}, "hasTarget": {"Description": {"about": "urn:word:Amarylli"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Amaryllida
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Amaryllida:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:36.506138"}, "hasTarget": {"Description": {"about": "urn:word:Amaryllida"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Amaryllis
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Amaryllis:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:36.533128"}, "hasTarget": {"Description": {"about": "urn:word:Amaryllis"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Ambarr%C4%AB
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Ambarrī:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:37.913135"}, "hasTarget": {"Description": {"about": "urn:word:Ambarrī"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Amicimur
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Amicimur:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:40.564424"}, "hasTarget": {"Description": {"about": "urn:word:Amicimur"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=ammiralius
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:ammiralius:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:41.915699"}, "hasTarget": {"Description": {"about": "urn:word:ammiralius"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=ammiratus
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:ammiratus:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:41.943830"}, "hasTarget": {"Description": {"about": "urn:word:ammiratus"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=anbas
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:anbas:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:44.023168"}, "hasTarget": {"Description": {"about": "urn:word:anbas"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=anc
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:anc:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:44.053926"}, "hasTarget": {"Description": {"about": "urn:word:anc"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=ancille
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:ancille:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:44.211022"}, "hasTarget": {"Description": {"about": "urn:word:ancille"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Andreas
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Andreas:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:44.501045"}, "hasTarget": {"Description": {"about": "urn:word:Andreas"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=anguipedum
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:anguipedum:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:44.781126"}, "hasTarget": {"Description": {"about": "urn:word:anguipedum"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=animadvortebant
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:animadvortebant:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:45.934473"}, "hasTarget": {"Description": {"about": "urn:word:animadvortebant"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=animadvorteretur
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:animadvorteretur:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:45.964009"}, "hasTarget": {"Description": {"about": "urn:word:animadvorteretur"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Annio
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Annio:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:48.252386"}, "hasTarget": {"Description": {"about": "urn:word:Annio"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Antenori
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Antenori:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:49.704093"}, "hasTarget": {"Description": {"about": "urn:word:Antenori"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Antilochi
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Antilochi:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:49.979689"}, "hasTarget": {"Description": {"about": "urn:word:Antilochi"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Antiochia
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Antiochia:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:50.007385"}, "hasTarget": {"Description": {"about": "urn:word:Antiochia"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Antiochiae
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Antiochiae:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:50.036047"}, "hasTarget": {"Description": {"about": "urn:word:Antiochiae"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Antiochiam
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Antiochiam:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:50.063505"}, "hasTarget": {"Description": {"about": "urn:word:Antiochiam"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Antoni
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Antoni:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:50.415047"}, "hasTarget": {"Description": {"about": "urn:word:Antoni"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Antonium
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Antonium:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:50.442740"}, "hasTarget": {"Description": {"about": "urn:word:Antonium"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Antonius
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Antonius:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:50.470748"}, "hasTarget": {"Description": {"about": "urn:word:Antonius"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=antrissaxa
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:antrissaxa:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:50.629474"}, "hasTarget": {"Description": {"about": "urn:word:antrissaxa"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aonidum
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aonidum:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:51.567419"}, "hasTarget": {"Description": {"about": "urn:word:Aonidum"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Apollinis
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Apollinis:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:52.649988"}, "hasTarget": {"Description": {"about": "urn:word:Apollinis"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aqu%C4%ABt%C4%81n%C4%AB
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aquītānī:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:57.072828"}, "hasTarget": {"Description": {"about": "urn:word:Aquītānī"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aqu%C4%ABt%C4%81n%C4%ABs
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aquītānīs:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:57.103664"}, "hasTarget": {"Description": {"about": "urn:word:Aquītānīs"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aquitani
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aquitani:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:57.257440"}, "hasTarget": {"Description": {"about": "urn:word:Aquitani"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aquitania
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aquitania:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:57.285188"}, "hasTarget": {"Description": {"about": "urn:word:Aquitania"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Aquitanis
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aquitanis:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:57.311833"}, "hasTarget": {"Description": {"about": "urn:word:Aquitanis"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=arabica
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:arabica:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:57.339450"}, "hasTarget": {"Description": {"about": "urn:word:arabica"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Arabs
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Arabs:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:57.361636"}, "hasTarget": {"Description": {"about": "urn:word:Arabs"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Arar
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Arar:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:57:57.510973"}, "hasTarget": {"Description": {"about": "urn:word:Arar"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=arceshortator
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:arceshortator:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:00.313020"}, "hasTarget": {"Description": {"about": "urn:word:arceshortator"}}, "title": {}}}}
+Request=/analysis/word?lang=lat&engine=morpheuslat&word=Archilochum
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Archilochum:morpheuslat", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:00.708712"}, "hasTarget": {"Description": {"about": "urn:word:Archilochum"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%2F%2Fgithub
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService://github:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.033469"}, "hasTarget": {"Description": {"about": "urn:word://github"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%2F%2Fservices2
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService://services2:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.070677"}, "hasTarget": {"Description": {"about": "urn:word://services2"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%3B
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:;:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.104653"}, "hasTarget": {"Description": {"about": "urn:word:;"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%3B-
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:;-:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.139706"}, "hasTarget": {"Description": {"about": "urn:word:;-"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%3B%3F
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:;?:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.179889"}, "hasTarget": {"Description": {"about": "urn:word:;?"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%3C
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:<:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.219317"}, "hasTarget": {"Description": {"about": "urn:word:<"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%3E
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:>:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.253264"}, "hasTarget": {"Description": {"about": "urn:word:>"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%3F
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:?:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.288653"}, "hasTarget": {"Description": {"about": "urn:word:?"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%3F%CE%BD%CF%89%CE%BD
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:?νων:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.323922"}, "hasTarget": {"Description": {"about": "urn:word:?νων"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%3F%CE%BF%CF%85
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:?ου:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.358754"}, "hasTarget": {"Description": {"about": "urn:word:?ου"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%3F%CF%85%CE%AC%CE%BD%CE%B1%CE%BA%CF%84%CE%BF%CF%82
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:?υάνακτος:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.393189"}, "hasTarget": {"Description": {"about": "urn:word:?υάνακτος"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%5B
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:[:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.429359"}, "hasTarget": {"Description": {"about": "urn:word:["}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%5B0%5D
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:[0]:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.468291"}, "hasTarget": {"Description": {"about": "urn:word:[0]"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%5B1%5D
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:[1]:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.502622"}, "hasTarget": {"Description": {"about": "urn:word:[1]"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%5B2%5D
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:[2]:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.538535"}, "hasTarget": {"Description": {"about": "urn:word:[2]"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%5B+%5D
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:[ ]:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.572413"}, "hasTarget": {"Description": {"about": "urn:word:[ ]"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%5B%CE%B3%CE%B5%CE%BD%E1%BF%83%5D
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:[γενῃ]:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:03.901185"}, "hasTarget": {"Description": {"about": "urn:word:[γενῃ]"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%5B%CE%B7%CE%BD
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:[ην:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:04.783737"}, "hasTarget": {"Description": {"about": "urn:word:[ην"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%5B%CE%B7%CE%BD%5D
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:[ην]:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:04.823186"}, "hasTarget": {"Description": {"about": "urn:word:[ην]"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%5B%CE%B7%CF%83%CE%B1%CE%BD%5D
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:[ησαν]:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:04.869921"}, "hasTarget": {"Description": {"about": "urn:word:[ησαν]"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%5B%E1%BC%90%CF%80%CE%BF%CE%AF%27%5D
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:[ἐποί']:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:08.838231"}, "hasTarget": {"Description": {"about": "urn:word:[ἐποί']"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%5D
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:]:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:10.952204"}, "hasTarget": {"Description": {"about": "urn:word:]"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=A
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:A:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:10.990327"}, "hasTarget": {"Description": {"about": "urn:word:A"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=A.
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:A.:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:11.030880"}, "hasTarget": {"Description": {"about": "urn:word:A."}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=ability
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:ability:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:11.071309"}, "hasTarget": {"Description": {"about": "urn:word:ability"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=according
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:according:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:11.108999"}, "hasTarget": {"Description": {"about": "urn:word:according"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=Ad
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Ad:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:11.142496"}, "hasTarget": {"Description": {"about": "urn:word:Ad"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=Aganippes
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Aganippes:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:11.635608"}, "hasTarget": {"Description": {"about": "urn:word:Aganippes"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=agnus
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:agnus:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:11.677671"}, "hasTarget": {"Description": {"about": "urn:word:agnus"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=Alcithoen
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Alcithoen:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:11.715532"}, "hasTarget": {"Description": {"about": "urn:word:Alcithoen"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=alii
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:alii:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:11.758897"}, "hasTarget": {"Description": {"about": "urn:word:alii"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=all
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:all:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:11.798757"}, "hasTarget": {"Description": {"about": "urn:word:all"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=ames
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:ames:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:11.838977"}, "hasTarget": {"Description": {"about": "urn:word:ames"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=and
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:and:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:11.877890"}, "hasTarget": {"Description": {"about": "urn:word:and"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=are
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:are:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:11.919688"}, "hasTarget": {"Description": {"about": "urn:word:are"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=armaria
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:armaria:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:11.964508"}, "hasTarget": {"Description": {"about": "urn:word:armaria"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=atria
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:atria:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.000235"}, "hasTarget": {"Description": {"about": "urn:word:atria"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=auctio
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:auctio:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.035461"}, "hasTarget": {"Description": {"about": "urn:word:auctio"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=balneolum
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:balneolum:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.076156"}, "hasTarget": {"Description": {"about": "urn:word:balneolum"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=before
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:before:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.111574"}, "hasTarget": {"Description": {"about": "urn:word:before"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=both
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:both:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.150563"}, "hasTarget": {"Description": {"about": "urn:word:both"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=but
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:but:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.187842"}, "hasTarget": {"Description": {"about": "urn:word:but"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=c
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:c:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.226665"}, "hasTarget": {"Description": {"about": "urn:word:c"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%C2%B7
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:·:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.265928"}, "hasTarget": {"Description": {"about": "urn:word:·"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CA%BC%CE%B6%CF%89%CE%BD
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:ʼζων:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.307824"}, "hasTarget": {"Description": {"about": "urn:word:ʼζων"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CA%BC%CE%BC%CE%BF%E1%BF%A6
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:ʼμοῦ:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.341683"}, "hasTarget": {"Description": {"about": "urn:word:ʼμοῦ"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CA%BC%CE%BE%CE%B5%CE%BA%CE%AD%CE%BD%CF%89%CF%83%CE%B5%CE%BD
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:ʼξεκένωσεν:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.382320"}, "hasTarget": {"Description": {"about": "urn:word:ʼξεκένωσεν"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CA%BC%CF%80%CA%BC
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:ʼπʼ:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.415657"}, "hasTarget": {"Description": {"about": "urn:word:ʼπʼ"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CA%BC%CF%80%CE%B9%CE%BA%CE%B1%CE%B8%E1%BF%86%CF%84%CE%BF
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:ʼπικαθῆτο:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.455169"}, "hasTarget": {"Description": {"about": "urn:word:ʼπικαθῆτο"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CA%BC%CF%83%CF%84%CE%B9%CE%BD
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:ʼστιν:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.491466"}, "hasTarget": {"Description": {"about": "urn:word:ʼστιν"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CA%BC%CF%86%CE%AC%CF%80%CF%84%CE%BF%CF%85%CF%83%CE%B1
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:ʼφάπτουσα:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.530286"}, "hasTarget": {"Description": {"about": "urn:word:ʼφάπτουσα"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=Caesare
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Caesare:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.566174"}, "hasTarget": {"Description": {"about": "urn:word:Caesare"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=called
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:called:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.602285"}, "hasTarget": {"Description": {"about": "urn:word:called"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=Camenas
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Camenas:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.641325"}, "hasTarget": {"Description": {"about": "urn:word:Camenas"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CC%93
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:̓:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.675783"}, "hasTarget": {"Description": {"about": "urn:word:̓"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%87
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:·:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:12.713291"}, "hasTarget": {"Description": {"about": "urn:word:·"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%91%E1%BC%B0%CE%BF%CE%BB%CE%BF%CE%BA%CE%AD%CE%BD%CF%84%CE%B1%CF%85%CF%81%CE%BF%CF%82
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Αἰολοκένταυρος:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:18.194795"}, "hasTarget": {"Description": {"about": "urn:word:Αἰολοκένταυρος"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%91%E1%BC%B0%CE%BF%CE%BB%CE%BF%CE%BA%CE%B5%CE%BD%CF%84%CE%B1%CF%8D%CF%81%CE%BF%CF%85
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Αἰολοκενταύρου:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:18.231799"}, "hasTarget": {"Description": {"about": "urn:word:Αἰολοκενταύρου"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%91%E1%BC%B4%CE%B1%CE%BD%CF%84%CC%93
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Αἴαντ̓:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:19.805147"}, "hasTarget": {"Description": {"about": "urn:word:Αἴαντ̓"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%91%E1%BC%B4%CE%B1%CE%BD%CF%84%CE%B5
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Αἴαντε:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:20.089500"}, "hasTarget": {"Description": {"about": "urn:word:Αἴαντε"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%92%CE%B1%CF%84%CE%B1%CE%BD%CF%8E%CF%87%CE%BF%CF%85
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Βατανώχου:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:26.891686"}, "hasTarget": {"Description": {"about": "urn:word:Βατανώχου"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%92%CE%BF%CF%83%CF%80%CE%BF%CF%81%CE%AF%CF%87%CF%89
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Βοσπορίχω:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:28.472349"}, "hasTarget": {"Description": {"about": "urn:word:Βοσπορίχω"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%93%CF%85%CE%B3%CE%AC%CE%B4%CE%B1%CF%82
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Γυγάδας:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:36.105147"}, "hasTarget": {"Description": {"about": "urn:word:Γυγάδας"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%94%CE%AE%CE%BC%CE%B7%CF%84%E1%BF%A4
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Δήμητῤ:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:43.206951"}, "hasTarget": {"Description": {"about": "urn:word:Δήμητῤ"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%94%CE%AF%CA%BC
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Δίʼ:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:44.197387"}, "hasTarget": {"Description": {"about": "urn:word:Δίʼ"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%94%CE%AF%CE%B1%CE%B9%CE%BE%CE%AF%CE%BD
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Δίαιξίν:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:44.712915"}, "hasTarget": {"Description": {"about": "urn:word:Δίαιξίν"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%94%CE%B1%CE%B4%CE%AC%CE%BA%CE%B7%CF%82
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Δαδάκης:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:48.092782"}, "hasTarget": {"Description": {"about": "urn:word:Δαδάκης"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%94%CE%B1%CE%BD%CE%B9%CE%B7%CE%BB
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Δανιηλ:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:50.544686"}, "hasTarget": {"Description": {"about": "urn:word:Δανιηλ"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%94%CE%B1%CF%81%CE%B5%E1%BF%96%CC%93
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Δαρεῖ̓:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:51.775412"}, "hasTarget": {"Description": {"about": "urn:word:Δαρεῖ̓"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%94%CE%B5%CF%85
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Δευ:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:53.599626"}, "hasTarget": {"Description": {"about": "urn:word:Δευ"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%94%CE%B7%CE%B9%CF%8C%CE%BA%CE%B5%CF%89
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Δηιόκεω:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:58:54.743827"}, "hasTarget": {"Description": {"about": "urn:word:Δηιόκεω"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%94%CE%BF%CF%84%CE%AC%CE%BC%CE%B1%CF%82
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Δοτάμας:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:59:04.136107"}, "hasTarget": {"Description": {"about": "urn:word:Δοτάμας"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%95%E1%BD%90%CE%B4%CE%B1%CE%B9%CE%BC%CE%BF%CE%BD%E1%BD%B6%CF%82
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Εὐδαιμονὶς:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:59:08.590977"}, "hasTarget": {"Description": {"about": "urn:word:Εὐδαιμονὶς"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%98%CE%AC%CF%81%CF%85%CE%B2%CE%B9%CF%82
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Θάρυβις:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:59:19.890158"}, "hasTarget": {"Description": {"about": "urn:word:Θάρυβις"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%98%CE%B1%CE%BB%CE%B1%CF%83%CF%83%CE%BF%CF%80%CF%8C%CF%84%CE%B7%CF%82
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Θαλασσοπότης:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:59:22.506404"}, "hasTarget": {"Description": {"about": "urn:word:Θαλασσοπότης"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%99%CE%BF%CF%85%CE%B4%CE%B1%E1%BF%96%CE%BF%CE%B9
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Ιουδαῖοι:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:59:32.339169"}, "hasTarget": {"Description": {"about": "urn:word:Ιουδαῖοι"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%99%CF%89%CE%B1%CE%BA%CE%B9%CE%BC
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Ιωακιμ:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:59:32.379007"}, "hasTarget": {"Description": {"about": "urn:word:Ιωακιμ"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%9A%CE%B7%CE%B3%CE%B4%CE%B1%CE%B4%CE%AC%CF%84%CE%B1%CE%BD
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Κηγδαδάταν:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:59:40.042723"}, "hasTarget": {"Description": {"about": "urn:word:Κηγδαδάταν"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%9A%CF%81%CE%AD%CF%89%CE%BD%CF%84%E1%BD%B8%CE%BD
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Κρέωντὸν:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:59:52.505359"}, "hasTarget": {"Description": {"about": "urn:word:Κρέωντὸν"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%9A%CF%81%CE%AF%CF%9D%CE%B5%CE%B9
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Κρίϝει:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T17:59:52.978859"}, "hasTarget": {"Description": {"about": "urn:word:Κρίϝει"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%9A%CF%85%CF%87%CF%81%CE%B5%CE%AF%CE%B1%CF%82
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Κυχρείας:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T18:00:00.181587"}, "hasTarget": {"Description": {"about": "urn:word:Κυχρείας"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%9A%CF%8C%CF%80%CF%81%CE%B9%CE%BF%CF%82
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Κόπριος:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T18:00:01.672509"}, "hasTarget": {"Description": {"about": "urn:word:Κόπριος"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%9B%CE%AF%CE%BB%CE%B1%CE%B9%CE%BF%CF%82
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Λίλαιος:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T18:00:08.688009"}, "hasTarget": {"Description": {"about": "urn:word:Λίλαιος"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%9B%CF%85%CE%B8%CE%AF%CE%BC%CE%BD%CE%B1%CE%BD
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Λυθίμναν:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T18:00:17.339755"}, "hasTarget": {"Description": {"about": "urn:word:Λυθίμναν"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%9B%CF%85%CE%BA%CE%B1%CE%B2%CE%B7%CF%84%CF%84%CE%BF%E1%BD%BA%CF%82
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Λυκαβηττοὺς:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T18:00:19.022086"}, "hasTarget": {"Description": {"about": "urn:word:Λυκαβηττοὺς"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%9B%CF%85%CE%BA%CE%B1%CE%B2%CE%B7%CF%84%CF%84%CE%BF%E1%BD%BA%CF%82%CE%BA%CE%B1%E1%BD%B6
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Λυκαβηττοὺςκαὶ:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T18:00:19.059557"}, "hasTarget": {"Description": {"about": "urn:word:Λυκαβηττοὺςκαὶ"}}, "title": {}}}}
+Request=/analysis/word?lang=grc&engine=morpheusgrc&word=%CE%9C%CE%AC%CF%84%CE%B1%CE%BB%CE%BB%CE%BF%CF%82
+
+Response=
+{"RDF": {"Annotation": {"about": "urn:TuftsMorphologyService:Μάταλλος:morpheusgrc", "creator": {"Agent": {"about": "org.perseus:tools:morpheus.v1"}}, "created": {"$": "2017-06-06T18:00:22.966819"}, "hasTarget": {"Description": {"about": "urn:word:Μάταλλος"}}, "title": {}}}}
