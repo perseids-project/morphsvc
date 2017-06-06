@@ -21,7 +21,7 @@ class AlpheiosRemoteEngine(AlpheiosXmlEngine):
     def lookup(self,word,word_uri,language,**kwargs):
         if self.transformer is not None:
           word = self.transformer.transform_input(word)
-        parsed = self._execute_query(word)
+        parsed = self._execute_query(word,language)
         if self.transformer is not None:
             transformed = self.transformer.transform_output(parsed)
         else:
