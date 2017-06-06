@@ -4,11 +4,31 @@ import morphsvc.lib.engines
 from morphsvc.lib.engines.engine import Engine
 
 class AnalysisWord(Resource):
+    """ Responds to a request for a word level analysis """
+
     def __init__(self, **kwargs):
+        """ Constructor
+        :param cache: The Cache to be used to store and retrieve resultss
+        :type cache: flask.ext.cache.Cache
+        :param config: The Flask App Config
+        :type config: dict
+        """
         self.cache = kwargs['cache']
         self.config = kwargs['config']
 
     def get_cache_key(self,engine=None, lang=None, word=None, engine_args=None):
+        """ Get the cache key to use for a word lookup
+        :param engine: the morphological engine key for the engine to be used
+        :type engine: str
+        :param lang: the language code for the word
+        :type lang: str
+        :param word: the word to be looked up
+        :type word: str
+        :param engine_args: dictionary of engine argument names and values
+        :type engine_args: dict
+        :return: cache key
+        :rtype: str
+        """
         arg_pairs = []
         for key,value in engine_args.items():
             if value is not None:
@@ -17,18 +37,61 @@ class AnalysisWord(Resource):
         return engine + "." + lang + '.' + word + '.' + args
 
     def get_from_cache(self,engine=None,lang=None, word=None, engine_args=None):
+        """ Get the word analysis from the cache
+        :param engine: the morphological engine key for the engine to be used
+        :type engine: str
+        :param lang: the language code for the word
+        :type lang: str
+        :param word: the word to be looked up
+        :type word: str
+        :param engine_args: dictionary of engine argument names and values
+        :type engine_args: dict
+        :return: cached analysis
+        :rtype: str
+        """
         return self.cache.get(self.get_cache_key(engine=engine,word=word,lang=lang,engine_args=engine_args))
 
     def put_to_cache(self,engine=None,lang=None,word=None,analysis=None, engine_args=None):
+        """ Put the word analysis to the cache
+        :param engine: the morphological engine key for the engine to be used
+        :type engine: str
+        :param lang: the language code for the word
+        :type lang: str
+        :param word: the word to be looked up
+        :type word: str
+        :param engine_args: dictionary of engine argument names and values
+        :type engine_args: dict
+        :param analysis: the analysis
+        :type analysis: str
+        """
         self.cache.set(self.get_cache_key(engine=engine,word=word,lang=lang, engine_args=engine_args),analysis)
 
     def get(self):
+        """ Respond to a GET request
+        :param engine: the engine code (Required)
+        :param lang: the language code for the word (Required)
+        :param word: the word to lookup (Required)
+        :param word_uri: a uri for the word (Optional)
+        :param *: per engine arguments (Optiona)
+        :return: analysis
+        """
         return self.call_engine()
 
     def post(self):
+        """ Respond to a POST request
+        :param engine: the engine code (Required)
+        :param lang: the language code for the word (Required)
+        :param word: the word to lookup (Required)
+        :param word_uri: a uri for the word (Optional)
+        :param *: per engine arguments (Optiona)
+        :return: analysis
+        """
+        return self.call_engine()
         return self.call_engine()
 
     def call_engine(self):
+        """ Execute an analysis request by calling the appropriate morphology engine
+        """
         parser = reqparse.RequestParser()
         parser.add_argument('engine')
         parser.add_argument('lang')
@@ -73,6 +136,16 @@ class AnalysisWord(Resource):
 
 
     def make_error(self,engine=None, msg=None, code=None):
+        """ Make an Error response
+        :param engine: The Engine instance which generated the error
+        :type engine: Engine
+        :param msg: The error message
+        :type msg: str
+        :param code: The error code
+        :type code: int
+        :return: error formatted as a dict
+        :rtype: dict
+        """
         if engine is None:
             # general purpose engine for errors
             engine = Engine()
