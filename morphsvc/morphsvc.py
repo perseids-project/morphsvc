@@ -4,6 +4,7 @@ from flask.ext.cache import Cache
 from flask_restful import Resource, Api, reqparse
 from flask.ext.cors import CORS
 from morphsvc.analysisword import AnalysisWord
+from morphsvc.enginemanager import EngineListResource, EngineResource
 
 
 app = Flask("morphsvc")
@@ -34,8 +35,18 @@ def init_app(app=None, config_file="config.cfg",cache_config=None):
         cache.init_app(app,config=cache_config)
 
 
-#api.add_resource(EngineListAPI, '/morphologyservice/engine')
-#api.add_resource(EngineAPI, '/morphologyservice/engine/<EngineId>')
+api.add_resource(
+    EngineResource,
+    '/engine/<id>',
+    resource_class_kwargs={ 'config':app.config }
+)
+
+api.add_resource(
+    EngineListResource,
+    '/engine',
+    resource_class_kwargs={ 'config':app.config }
+)
+
 
 api.add_resource(
     AnalysisWord,

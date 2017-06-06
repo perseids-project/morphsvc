@@ -8,12 +8,15 @@ import os, requests
 class AlpheiosRemoteEngine(AlpheiosXmlEngine):
 
 
-    def __init__(self,config,**kwargs):
-       super(AlpheiosRemoteEngine, self).__init__(config,**kwargs)
+    def __init__(self, code, config,**kwargs):
+       super(AlpheiosRemoteEngine, self).__init__(code, config,**kwargs)
+       self.code = code
+       self.language_codes = []
        self.config = config
        self.uri = ''
        self.remote_url = ''
        self.transformer = None
+
 
     def lookup(self,word,word_uri,language,**kwargs):
         if self.transformer is not None:
@@ -24,9 +27,6 @@ class AlpheiosRemoteEngine(AlpheiosXmlEngine):
         else:
             transformed = etree.XML(parsed)
         return transformed
-
-    def supports_language(self,language):
-        return False
 
     def _execute_query(self,word,language):
         url = self.remote_url + word

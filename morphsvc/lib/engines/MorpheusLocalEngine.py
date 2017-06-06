@@ -11,13 +11,17 @@ class MorpheusLocalEngine(AlpheiosXmlEngine):
     """ Morpheus Local Engine (Morpheus is callable locally)
     """
 
-    def __init__(self,config,**kwargs):
+    def __init__(self,code, config,**kwargs):
        """ Constructor
+       :param code: code
+       :type code: str
        :param config: app config
        :type config: dict
        """
-       super(MorpheusLocalEngine, self).__init__(config,**kwargs)
+       super(MorpheusLocalEngine, self).__init__(code, config,**kwargs)
+       self.code = code
        self.config = config
+       self.language_codes = ['grc', 'la', 'lat' ]
        self.uri = self.config['PARSERS_MORPHEUS_URI']
        self.morpheus_path = self.config['PARSERS_MORPHEUS_PATH']
        self.transformer = BetacodeTransformer(config)
@@ -68,15 +72,6 @@ class MorpheusLocalEngine(AlpheiosXmlEngine):
         """
         return check_output(itertools.chain([self.morpheus_path], args, [word]))
 
-
-    def supports_language(self,language):
-        """ Checks to see if the engine supports the supplied language
-        :param language: the language code to check
-        :type language: str
-        :return: True if supported, False if not
-        :rtype: bool
-        """
-        return language == 'grc' or language == 'lat' or language == 'la'
 
     def add_lexical_entity_uris(self,analysis,language):
         """ Adds lexical entity uris to morpheus output

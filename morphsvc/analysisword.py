@@ -2,6 +2,7 @@ from flask_restful import Resource, Api, reqparse
 import importlib
 import morphsvc.lib.engines
 from morphsvc.lib.engines.engine import Engine
+from morphsvc.enginemanager import EngineManager
 
 class AnalysisWord(Resource):
     """ Responds to a request for a word level analysis """
@@ -102,14 +103,12 @@ class AnalysisWord(Resource):
         engine = args['engine']
         word = args['word']
         word_uri = args["word_uri"]
-        config_setting = 'ENGINES_' + engine.upper() + '_CNAME'
+        engine_manager = EngineManager(self.config)
+        try:
+            engine_instance = engine_manager.getengine(engine)
+        except:
+            return self.make_error(msg="<error>unknown engine</error>",code=404)
 
-        if not config_setting in self.config:
-            return self.make_error(msg="unknown engine",code=404)
-
-        module_name, class_name = self.config[config_setting].rsplit(".",1)
-        EngineClass = getattr(importlib.import_module(module_name), class_name)
-        engine_instance = EngineClass(self.config)
 
         engine_argparser = reqparse.RequestParser()
         engine_opts = engine_instance.options()
@@ -118,7 +117,7 @@ class AnalysisWord(Resource):
         engine_args = engine_argparser.parse_args()
 
         if not engine_instance.supports_language(lang):
-            return self.make_error(msg="unsupported language",engine=engine_instance, code=404)
+            return self.make_error(msg="<error>unsupported language</error>", code=404)
 
         cached_word = self.get_from_cache(engine=engine,word=word,lang=lang, engine_args=args)
 
@@ -148,5 +147,5 @@ class AnalysisWord(Resource):
         """
         if engine is None:
             # general purpose engine for errors
-            engine = Engine()
+            engine = Engine(None,None)
         return { 'data' : msg, 'engine': engine }, code

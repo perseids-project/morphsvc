@@ -9,7 +9,8 @@ from  morphsvc.lib.transformers.OaLegacyTransformer import OaLegacyTransformer
 
 class AlpheiosXmlEngine(Engine):
 
-    def __init__(self,config,**kwargs):
+    def __init__(self, code, config,**kwargs):
+        self.code = code
         self.oa_transformer = OaLegacyTransformer()
         self.uri = ""
 

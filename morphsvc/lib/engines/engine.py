@@ -1,11 +1,20 @@
 import json
+from morphsvc.lib.xmljson import legacy as legacy
+from json import dumps
+from lxml import etree
 
 class Engine():
     """ Base Morphological Engine Wrapper Class """
 
-    def __init__(self,*args,**kwargs):
-        """ Constructor """
-        pass
+    def __init__(self, code, config, **kwargs):
+        """ Constructor
+        :param code: the engine code
+        :type code: str
+        :param config: the app config
+        :type config: dict
+        """
+        self.code = code
+        self.language_codes = []
 
     def lookup(self,word=None,word_uri=None,language=None,request_args=None,**kwargs):
         """ Word Lookup Function
@@ -29,7 +38,7 @@ class Engine():
         :return: the analysis as JSON
         :rtype: str
         """
-        return json.dumps(engine_response)
+        return dumps(legacy.data(etree.fromstring(engine_response)),ensure_ascii=False)
 
     def output_xml(self,engine_response):
         """ Output Engine Response as XML
@@ -38,7 +47,7 @@ class Engine():
         :return: the analysis as XML
         :rtype: str
         """
-        return "<error>" + engine_response + "</error>"
+        return engine_response
 
     def supports_language(self,language):
         """ Checks to see if the engine supports the supplied language
@@ -47,11 +56,21 @@ class Engine():
         :return: True if supported, False if not
         :rtype: bool
         """
-        return False
+        return language in self.language_codes
+
 
     def options(self):
         """ get the engine specific request arguments
-        :return: engine specific request arguments or None if there aren't any
+        :return: engine specific request arguments
         :rtype: dict
         """
-        return None
+        return {}
+
+    def __str__(self):
+        asstr = '<engine code="' + self.code + '">'
+        for code in self.language_codes:
+            asstr = asstr + '<supportsLanguageCode>' + code + '</supportsLanguageCode>'
+        for opt,value in self.options().items():
+            asstr = asstr + '<supportsOption>' + opt + '=' + value + '</supportsOption>'
+        asstr = asstr + '</engine>'
+        return asstr
