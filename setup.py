@@ -13,7 +13,8 @@ setup(
         "requests-cache==0.4.9",
         "flask-cors==2.0.0",
         "lxml",
-        "redis>=2.10.5"
+        "redis>=2.10.5",
+        "hazm"
     ],
     setup_requires=[
     ],
