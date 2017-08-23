@@ -83,21 +83,24 @@ class MorpheusLocalEngine(AlpheiosXmlEngine):
         """
         lemmas = analysis.xpath('//hdwd')
         for l in lemmas:
-            resp = self._execute_lexical_query(language,l.text)
-            uri_xml = etree.fromstring(resp)
-            uri = ""
-            uris = uri_xml.xpath('//cs:reply//cite:citeObject',
+            try:
+                resp = self._execute_lexical_query(language,l.text)
+                uri_xml = etree.fromstring(resp)
+                uri = ""
+                uris = uri_xml.xpath('//cs:reply//cite:citeObject',
                                  namespaces = {'cs':'http://shot.holycross.edu/xmlns/citequery',
                                                'cite':'http://shot.holycross.edu/xmlns/cite'})
-            if len(uris) > 0:
-                uri = uris[0].get('urn')
-            else:
-                uris = uri_xml.xpath('//sparql:results/sparql:result/sparql:binding/sparql:uri',
-                                      namespaces = {'sparql':'http://www.w3.org/2005/sparql-results#'})
                 if len(uris) > 0:
-                    uri = uris[0].text
-            if uri:
-                l.getparent().getparent().set('uri',self.lexical_entity_base_uri+uri)
+                    uri = uris[0].get('urn')
+                else:
+                    uris = uri_xml.xpath('//sparql:results/sparql:result/sparql:binding/sparql:uri',
+                                      namespaces = {'sparql':'http://www.w3.org/2005/sparql-results#'})
+                    if len(uris) > 0:
+                        uri = uris[0].text
+                if uri:
+                    l.getparent().getparent().set('uri',self.lexical_entity_base_uri+uri)
+            except:
+                pass
 
     def _execute_lexical_query(self,language,lemma):
         """ Executes the configured lexical entity query service
