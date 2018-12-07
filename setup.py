@@ -6,7 +6,7 @@ setup(
     include_package_data=True,
     test_suite="tests",
     install_requires=[
-        'flask==0.12',
+        'flask==0.12.3',
         "requests>=2.8.1",
         "Flask-Cache==0.13.1",
         "Flask-Restful",
